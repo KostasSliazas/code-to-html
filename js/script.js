@@ -134,7 +134,7 @@
       example.appendChild(fragment)
       textOutput.value = example.outerHTML
     } else {
-      window.alert('emty input')
+      textOutput.value = 'no input'
     }
   }
 
