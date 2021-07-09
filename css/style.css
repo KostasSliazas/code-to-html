@@ -85,7 +85,7 @@ header {
 }
 
 .code__i {
-    margin: 0 6px;
+    margin: 0 2px;
 }
 
 .code__i--el {
@@ -98,7 +98,6 @@ header {
 
 .code__i--re {
     color: #ce987e;
-    padding: 0 0 0 6px;
 }
 
 .code__i--st {

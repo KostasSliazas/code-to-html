@@ -117,13 +117,13 @@
           if (e === ';') return e.replace(';', `<i class="code__i--el">${e}</i>`)
           return e
         }).join('')
-          .replaceAll('href', '<i class="code__i--re">href</i>')
-          .replaceAll('rel', '<i class="code__i--re">rel</i>')
-          .replaceAll('src', '<i class="code__i--re">src</i>')
+          .replaceAll('href', '<i class="code__i--re"> href</i>')
+          .replaceAll('rel', '<i class="code__i--re"> rel</i>')
+          .replaceAll('src', '<i class="code__i--re"> src</i>')
           .replaceAll('link', '<i class="code__i--sc">link</i>')
           .replaceAll('"stylesheet"', '<i class="code__i--st">"stylesheet"</i>')
           .replaceAll('script', '<i class="code__i--sc">script</i>')
-          .replaceAll('defer', '<i class="code__i--re">defer</i>')
+          .replaceAll(' defer ', '<i class="code__i--re"> defer </i>')
           .replaceAll(comment, `<i class="code__i--co">${mached}</i>`)
           .trim()
         pTag.innerHTML = arr
