@@ -142,6 +142,8 @@ main {
     position: sticky;
     top: 0;
     border: 6px solid #2F3842;
+    width: -webkit-fill-available;
+    width: -moz-available;
 }
 
 .input,
