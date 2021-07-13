@@ -89,7 +89,7 @@ header {
 }
 
 .code__i--el {
-    color: #b5a36a;
+    color: #dbd7c7;
 }
 
 .code__i--sc {
@@ -97,11 +97,11 @@ header {
 }
 
 .code__i--re {
-    color: #ce987e;
+    color: #b44c18;
 }
 
-.code__i--st {
-    color: #ff7c7c;
+.code__i--ta {
+    color: #630707;
 }
 
 .code__i--co {
